@@ -1,0 +1,9 @@
+<form action="" method="post">
+    {% csrf_token %}
+    Laissez votre commentaire ci-dessous, nous y répondrons dans les plus bref délais.
+    <br>
+    {{ form.username }}
+    <br>
+    {{ form.comment }}
+    <input type="submit" value="OK">
+</form>
